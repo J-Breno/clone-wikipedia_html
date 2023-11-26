@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+<!-- Muitas coisas que eu fiz tanto no html,quanto no css eu pesquisei na documentação -->
 
 <head>
   <meta charset="UTF-8">
@@ -10,13 +11,9 @@
 </head>
 
 <body>
-  <!-- //details e summary -->
   <header>
     <nav class="nav-top">
-      <!-- <div> -->
 
-
-      <!-- <picture> -->
       <div class="list-nav-header">
         <picture>
           <a href=""><img src="/img/menu.svg" alt="menu-rolagem"></a>
@@ -30,14 +27,12 @@
             <img src="https://pt.wikipedia.org/static/images/mobile/copyright/wikipedia-tagline-pt.svg" alt="sub name wikipedia">
           </div>
         </div>
-        <!-- </picture> -->
       </div>
       <div class="pesquisa">
 
-        <input class="pesquisa-wikipiedia" type="text" placeholder="Pesquise na Wikipédia"> <!--Depois coloque o icone no input-->
+        <input class="pesquisa-wikipiedia" type="search" placeholder="Pesquise na Wikipédia"> <!--Depois coloque o icone no input-->
         <button class="botao-wikipiedia">Pesquisar</button>
       </div>
-      <!-- </div> -->
       <div class="list-cadastro">
         <ul class="cadastro-list">
           <li><a href="#">Criar uma conta</a></li>
@@ -51,21 +46,76 @@
 
   </header>
   <main>
-    <nav>
+    <section class="section-main">
 
-    </nav>
-    <section>
+      <section>
+        <aside class="list-nav-main">
+          <nav>
+            <p>Conteúdo</p>
+            <hr class="line-nav">
+            <!-- //details e summary -->
+            <h4>Início</h4>
 
+            <ul class="list-nav-left">
+              <li><a href="">Enredo</a></li>
+              <li><a href="">Death Note</a></li>
+              <li><a href="">Personagens principais</a></li>
+            </ul>
+            <details>
+              <summary>Produção</summary>
+              <ul>
+                <li><a href="">One-Shot</a></li>
+                <li><a href="">Adptação em anime</a></li>
+              </ul>
+            </details>
+            <details>
+              <summary>Mídias</summary>
+              <ul>
+                <li><a href="">Mangá</a></li>
+                <li><a href="">Anime</a></li>
+                <li><a href="">Jogos eletrônicos</a></li>
+                <li><a href="">Filmes em live-action</a></li>
+                <li><a href="">Dorama</a></li>
+                <li><a href="">Musical</a></li>
+              </ul>
+            </details>
+          </nav>
+        </aside>
+      </section>
+      <section class="intro">
+        <div class="div-h1">
+
+          <h1 class="death-note">Death Note</h1>
+          <p><a href="#">80 Línguas</a></p>
+        </div>
+        <hr class="hr-intro">
+        <div class="div-edit">
+
+          <div class="div-artigo">
+
+            <p>Artigo</p>
+            <p><a href="">Discussão</a></p>
+          </div>
+          <div class="levf">
+
+            <p><a href="">Ler</a></p>
+            <p><a href="">Editar</a></p>
+            <p><a href="">Ver Histórico</a></p>
+            <p>Ferramentas</p>
+          </div>
+        </div>
+        <hr class="hr-intro">
+        <p>Origem: <cite>Wikipédia, a enciclopédia livre.</cite></p>
+      </section>
+      <section class="artigo-main">
+        <p><strong>Death Note</strong><cite>(デスノート Desu Nōto?, lit. "Caderno da Morte")</cite> é uma série de mangá escrita por Tsugumi Ohba e ilustrada por Takeshi Obata. Os capítulos do mangá foram serializados na revista semanal japonesa Weekly Shōnen Jump de 2003 até 2006, com os capítulos compilados em um total de 12 volumes tankōbon e lançados pela editora Shueisha.[1] No Brasil, a série de mangá foi licenciada publicada em duas versões pela editora JBC, que também lançou as duas light novels da série.[2][3] Em Portugal, o mangá foi licenciado pela Viz Media Europa e publicado pela Editora Devir.[4]</p>
+        <p>A história centra-se em Light Yagami, um estudante do ensino médio que descobre um caderno sobrenatural chamado Death Note, no qual pode matar pessoas se os nomes forem escritos nele enquanto o portador visualizar mentalmente o rosto de alguém que quer assassinar.[5] A partir daí Light tenta eliminar todos os criminosos e criar um mundo onde não exista o mal, mas seus planos são contrariados por L, um famoso detetive particular.[6]</p>
+        <p>O sucesso do mangá levou a vários produtos relacionados. A história do mangá foi adaptada em uma série de televisão de anime produzida pela Madhouse e dirigida por Tetsurō Araki, composta de 37 episódios.[7] O anime foi exibido no Japão de 3 de outubro de 2006 até 26 de junho de 2007 pela Nippon Television. O anime foi exibido no Brasil pela primeira vez em 2009 pelo Animax, e mais tarde reexibido em 2014 pela PlayTV, e posteriormente pela Netflix. Também foi exibido no canal Warner Channel, através do bloco Wanimé.[8] Em Portugal foi exibido pelo Animax e pela SIC Radical.[9] Além disso, a obra foi adaptada em três filmes live-action, incluindo um quarto filme em 2016 e uma adaptação norte-americana distribuída pela Netflix em 2017,[10] um dorama, duas light novels e vários jogos eletrônicos criados pela Konami para o Nintendo DS.</p>
+      </section>
+      <div class="aside">
+        <img src="https://i.pinimg.com/564x/43/ab/f8/43abf88b34daa185dc31eebfd0e8c4db.jpg" alt="wikipedia">
+      </div>
     </section>
-    <aside>
-
-    </aside>
-    <section>
-
-    </section>
-    <section></section>
-    <section></section>
-    <section></section>
   </main>
   <footer>
     <address>

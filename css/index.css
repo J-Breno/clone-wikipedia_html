@@ -1,3 +1,5 @@
+/* Eu acabei dando uma pesquisada na documentação e encontrei o grid, usei um pouco ele junto com o flex */
+
 * {
   font-family: Georgia, "Times New Roman", Times, serif;
   margin: 0px;
@@ -36,7 +38,7 @@ div img.logo-main {
   display: flex;
   align-items: center;
 }
-ul {
+ul.cadastro-list {
   display: flex;
   list-style: none;
 }
@@ -56,10 +58,89 @@ input.pesquisa-wikipiedia {
   padding: 0 0px 0 30px;
   background-repeat: no-repeat;
   font-size: 20px;
+  border-color: rgba(172, 172, 172, 0.474);
   /* align-self: center; */
 }
 button.botao-wikipiedia {
-  height: 35px;
+  height: 32px;
   padding: 5px 10px;
-  font-size: 20px;
+  font-size: 16px;
+  background-color: rgba(222, 222, 222, 0.474);
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: bold;
+  border: 1px solid rgba(172, 172, 172, 0.474);
+}
+aside.list-nav-main {
+  padding-left: 50px;
+  padding-top: 52px;
+}
+
+hr.line-nav {
+  width: 250px;
+  border-color: rgb(255, 255, 255, 0.3);
+}
+ul.list-nav-left {
+  list-style: none;
+  padding-left: 0px;
+  line-height: 22px;
+}
+a {
+  color: #3366cc;
+}
+details ul li {
+  list-style: none;
+  line-height: 22px;
+  color: #3366cc;
+}
+details ul {
+  padding-left: 16px;
+}
+hr.hr-intro {
+  width: 850px;
+}
+section.section-main {
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  padding-top: 40px;
+}
+div.div-h1 {
+  display: flex;
+  justify-content: space-between;
+  max-width: 850px;
+  align-items: end;
+}
+div.div-artigo {
+  display: flex;
+  justify-content: left;
+
+  gap: 10px;
+}
+div.levf {
+  display: flex;
+  justify-content: right;
+  gap: 10px;
+  max-width: 850px;
+}
+h1.death-note {
+  font-size: 42px;
+  font-family: serif;
+  font-weight: 300;
+}
+div.div-edit {
+  display: flex;
+  justify-content: space-between;
+  max-width: 850px;
+}
+section.artigo-main {
+  grid-column: 2 /3;
+  max-width: 850px;
+}
+div.aside {
+  grid-row: 2;
+  grid-column: 3 / 3;
+  width: 300px;
+  max-width: 300px;
+}
+div.aside img {
+  width: 200px;
 }
