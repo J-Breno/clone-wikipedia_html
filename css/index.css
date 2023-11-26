@@ -134,13 +134,55 @@ div.div-edit {
 section.artigo-main {
   grid-column: 2 /3;
   max-width: 850px;
+  line-height: 25px;
 }
-div.aside {
+section.artigo-main p {
+  padding-bottom: 12px;
+}
+div.aside1 {
   grid-row: 2;
   grid-column: 3 / 3;
   width: 300px;
   max-width: 300px;
 }
-div.aside img {
+div.aside1 img {
   width: 200px;
+}
+div.aside2 {
+  grid-row: 3;
+  grid-column: 3 / 3;
+  width: 300px;
+  max-width: 300px;
+}
+div.aside2 img {
+  width: 200px;
+}
+div.aside3 {
+  grid-row: 4;
+  grid-column: 3 / 3;
+  width: 300px;
+  max-width: 300px;
+}
+div.aside3 img {
+  width: 200px;
+}
+div.aside4 {
+  grid-row: 5;
+  grid-column: 3 / 3;
+  width: 300px;
+  max-width: 300px;
+}
+div.aside4 img {
+  width: 200px;
+  height: 400px;
+}
+address {
+  grid-column: 1 / 5;
+}
+address div {
+  padding: 10px 0;
+}
+footer {
+  max-width: 1400px;
+  margin: 0 20px 20px 40px;
 }
